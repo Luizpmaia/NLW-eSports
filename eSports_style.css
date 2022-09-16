@@ -99,8 +99,8 @@ section ul {
 }
 
 section ul li {
+  transition: transform 0.3s;
 }
-transition: transform 0.3s;
 
 section ul li:hover {
   transform: scale(1.1);
@@ -148,10 +148,10 @@ main section:nth-child(3) {
     opacity: 1;
     transform: translateY(0);
   }
+}
+/* ou poderia ser assim: */
 
-  /* ou poderia ser assim: */
-
-  /* 0% {
+/* 0% {
     opacity: 0;
     transform: translateY(-30px);
   }
@@ -160,7 +160,6 @@ main section:nth-child(3) {
     opacity: 1;
     transform: translateY(0);
   } */
-}
 
 @keyframes fromBottom {
   from {
