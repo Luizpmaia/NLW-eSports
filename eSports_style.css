@@ -173,3 +173,13 @@ main section:nth-child(3) {
 }
 
 /* Animação da borda */
+
+/* @keyframes edgeRotating {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+section div {
+  animation: edgeRotating 3s infinite ease-in-out;
+} */
